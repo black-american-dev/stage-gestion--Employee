@@ -1,0 +1,32 @@
+	this is the plan i will be doing in the stage :
+first this app will be employee management for the company that have more department in :
+	Laayoune, Smara, Dakhla, Boujdour
+1) i will do a database contains the employee info ( full name, age, full work history, department he work in, contract type {director, employee, stagiaire ...}, CNSS, CIN, Salary)
+and i will add this feature that will calculate his leave that he can request in a year and if he have just 5 days left he can't request 7 days (so don't waste time of HR )
+	💡 Add rules
+	     Max leave per year (ex: 18 days)
+	     Cannot request leave if balance = 0
+	     Auto-calculate remaining days
+	     Prevent overlapping leave dates
+
+	🧠 Example
+	     Employee has 5 days left → system blocks request of 7 days
+
+
+2) and i will add feature that he can generate pdf that always the same just small information change
+he will have form so he add info just change hit generate button and the pdf will generate 
+
+	💡Generate PDFs
+	     Work certificate
+	     Leave approval
+	     Employee profile
+	     Contract summary
+	
+
+3) and i will add to save time a search/filter function to search and filter employee :
+	💡 Filters
+	     By department
+	     By contract type
+	     By status
+	     By leave balance
+	     By hire date
